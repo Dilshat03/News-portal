@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: inline-block !important;
+}
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main {
+    flex: 1;
+}
+
+.active {
+    border-bottom: 2px solid black;
+}
+
+.img-news {
+    width: 200px;
+    height: 200px;
+
+}
+
+.hero {
+    background: url("https://dnews.uz/assets_front/img/news/nuz/nuz60b8b7c7c7b05.jpg") no-repeat center/cover;
+    height: 100vh;
+    background-blend-mode: darken;
+}
+
+.btn {
+    background-color: aliceblue;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 13px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.hero-box {
+    border: 1px solid #484747;
+    background-color: antiquewhite;
+    display: inline-block;
+    padding: 20px;
+}
+
+.hero-title {
+    color: black;
+}
+.img-news-2{
+    width: 600px;
+    height: 400px;
+    margin: 20px 0;
 }
