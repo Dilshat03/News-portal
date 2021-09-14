@@ -16,7 +16,7 @@ img{
 }
 
 .active {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #093f3b;
 }
 
 .img-news {
@@ -26,7 +26,7 @@ img{
 }
 
 .hero {
-    background: url("https://dnews.uz/assets_front/img/news/nuz/nuz60b8b7c7c7b05.jpg") no-repeat center/cover;
+    background: rgba(0, 0, 0, 0.49) url("https://barnes-newyork.com/wp-content/uploads/2021/05/NewYork-HomeBanner.jpg") no-repeat center/cover;
     height: 100vh;
     background-blend-mode: darken;
 }
@@ -42,13 +42,12 @@ img{
 
 .hero-box {
     border: 1px solid #484747;
-    background-color: antiquewhite;
     display: inline-block;
     padding: 20px;
 }
 
 .hero-title {
-    color: black;
+    color: antiquewhite;
 }
 .img-news-2{
     width: 600px;

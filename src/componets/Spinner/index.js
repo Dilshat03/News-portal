@@ -1,11 +1,16 @@
 import React from 'react';
-
+import './style.css'
 const Spinner = () => {
     return (
-        <div>
-            <div className="d-flex justify-content-center">
-                <div className="spinner-border" role="status">
-                    <span className="visually-hidden">Loading...</span>
+        <div className='mx-auto my-auto'>
+            <div className="atom-spinner">
+                <div className="spinner-inner">
+                    <div className="spinner-line"></div>
+                    <div className="spinner-line"></div>
+                    <div className="spinner-line"></div>
+                    <div className="spinner-circle">
+                        &#9679;
+                    </div>
                 </div>
             </div>
         </div>

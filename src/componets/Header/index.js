@@ -23,16 +23,16 @@ const Header = () => {
                     </button>
                 </div>
                 <div className="navbar-menu hidden lg:order-3 lg:block w-full lg:w-2/5 lg:text-right">
-                    <NavLink exact className="block lg:inline-block mt-4 lg:mt-0 mr-10 text-yellow-200 " to='/'>
+                    <NavLink exact className="block lg:inline-block  lg:mt-0 mr-10 text-yellow-200 " to='/'>
                         Главная
                     </NavLink>
-                    <NavLink className="block lg:inline-block mt-4 lg:mt-0 mr-10 text-yellow-200" to='/news'>
+                    <NavLink className="block lg:inline-block  lg:mt-0 mr-10 text-yellow-200" to='/news'>
                         Новости
                     </NavLink>
-                    <NavLink className="block lg:inline-block mt-4 lg:mt-0 mr-10 text-yellow-200" to='/signIn'>
+                    <NavLink className="block lg:inline-block  lg:mt-0 mr-10 text-yellow-200" to='/signIn'>
                         Войти
                     </NavLink>
-                    <NavLink className="block lg:inline-block mt-4 lg:mt-0 text-yellow-200" to='/signUp'>
+                    <NavLink className="block lg:inline-block  lg:mt-0 text-yellow-200" to='/signUp'>
                         Регистрация
                     </NavLink>
                 </div>
