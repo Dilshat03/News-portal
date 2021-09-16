@@ -97,3 +97,6 @@ img{
     right: 10px;
     top: 5px;
 }
+.call-list{
+    border-bottom: 1px solid #606060;
+}

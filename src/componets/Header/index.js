@@ -31,18 +31,21 @@ const Header = () => {
                     </Link>
                 </div>
 
-                <div className="navbar-menu hidden lg:order-3 lg:block w-full lg:w-2/4 lg:text-right">
-                    <NavLink exact className="block lg:inline-block  lg:mt-0 mr-10 text-yellow-200 " to='/'>
+                <div className="navbar-menu hidden lg:order-3 lg:block w-full lg:ml-10 lg:text-right">
+                    <NavLink exact className="block lg:inline-block  lg:mt-0 ml-10 text-yellow-200 " to='/'>
                         Главная
                     </NavLink>
-                    <NavLink className="block lg:inline-block  lg:mt-0 mr-10 text-yellow-200" to='/news'>
+                    <NavLink className="block lg:inline-block  lg:mt-0 ml-10 text-yellow-200" to='/news'>
                         Новости
                     </NavLink>
-                    <NavLink className="block lg:inline-block  lg:mt-0 mr-10 text-yellow-200" to='/signIn'>
+                    <NavLink className="block lg:inline-block  lg:mt-0 ml-10 text-yellow-200" to='/signIn'>
                         Войти
                     </NavLink>
-                    <NavLink className="block lg:inline-block  lg:mt-0 text-yellow-200" to='/signUp'>
+                    <NavLink className="block lg:inline-block  lg:mt-0 text-yellow-200 ml-10" to='/signUp'>
                         Регистрация
+                    </NavLink>
+                    <NavLink className="block lg:inline-block  lg:mt-0 text-yellow-200 ml-10" to='/callBack'>
+                        Лист заявок
                     </NavLink>
                     <button className="callback" onClick={() => setIsOpen(true)}>
                         Связаться со мной

@@ -6,6 +6,7 @@ import News from "./componets/News";
 import SignIn from "./views/SignIn";
 import SignUp from "./views/SignUp";
 import NotFound from "./componets/NotFound";
+import CallBAck from "./componets/CallBack";
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                <Route path='/news/:id'><NewsDetails/></Route>
                <Route path='/signIn'><SignIn/></Route>
                <Route path='/signUp'><SignUp/></Route>
+               <Route path='/callBack'><CallBAck/></Route>
                <Route path='*'><NotFound/></Route>
            </Switch>
 
